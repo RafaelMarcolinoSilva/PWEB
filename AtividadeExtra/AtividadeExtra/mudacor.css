@@ -1,0 +1,75 @@
+.mudacor{
+    width: 600px;
+    height: 600px;
+}
+
+@media screen and (min-width: 1921px){
+    .mudacor {
+        background-color: black;
+        
+    }
+
+    .mudacor h1:after {
+        content:"Nada além daqui";
+        color: blanchedalmond;
+    }
+}
+@media screen and (max-width: 1920px){
+    .mudacor {
+        background-color:  yellow;
+    }
+
+    .mudacor h1:after {
+        content: "Amarelão Tudo Nosso";
+    }
+}
+
+@media screen and (max-width: 1366px){
+    .mudacor {
+        background-color: purple;
+    }
+
+    .mudacor h1:after {
+        content: "Suco de Uva";
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .mudacor {
+        background-color: magenta;
+    }
+
+    .mudacor h1:after {
+        content: "Outro tipo de Rosa";
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .mudacor {
+        background-color:  red;
+    }
+
+    .mudacor h1:after {
+        content: "Suco de Morango";
+    }
+}
+
+@media screen and (max-width: 768px){
+    .mudacor {
+        background-color: orange;
+    }
+
+    .mudacor h1:after {
+        content: "Laranjada";
+    }
+}
+
+@media screen and (max-width: 420px){
+    .mudacor {
+        background-color:  gray;
+    }
+
+    .mudacor h1:after {
+        content: "Vai Chover";
+    }
+}
